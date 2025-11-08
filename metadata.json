@@ -1,0 +1,7 @@
+{
+  "name": "AI Mock Interview Pro",
+  "description": "An AI-powered interview practice platform for students to enhance their interview skills through interactive, adaptive question–answer sessions with voice interaction and personalized feedback. It uses a locally-hosted LLM via Ollama. For Firebase authentication to work, please add `interviewauth-58115.web.app` and its preview domains to the list of authorized domains in your Firebase project settings.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
