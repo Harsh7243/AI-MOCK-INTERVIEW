@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { BrainCircuitIcon, GoogleIcon } from './icons';
 import { signInWithGoogle } from '../services/firebase';
@@ -42,9 +41,6 @@ export const LandingPage = () => {
                     <GoogleIcon />
                     Sign In & Start Interview
                 </button>
-                <p className="text-sm text-gray-500 mt-4">
-                    Note: This app requires a local Ollama instance running.
-                </p>
             </div>
         </div>
     );
